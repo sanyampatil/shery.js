@@ -28,6 +28,7 @@ body {
 }
 
 #nav a {
+    display: inline-block;
     font-size: 12px;
     text-decoration: none;
     color: #000;
@@ -42,6 +43,7 @@ body {
 }
 
 #hero {
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -66,7 +68,6 @@ body {
 #sustain #susimagewrapper {
     width: 100%;
     height: 15vw;
-    background-color: red;
 }
 
 #susimagewrapper img {
@@ -75,15 +76,16 @@ body {
     left: 50%; */
     /* transform: translate(-50%,-50%); */
 
-    width: 140%;
-    height: 120%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 #ephameral {
+    position: relative;
     width: 30vw;
     min-height: 40vw;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
 }
 
 #ephameral #heading {
@@ -165,7 +167,6 @@ body {
     margin: 0 13px;
     border-radius: 100px;
     margin-bottom: -12.5px;
-    background-color: red;
     
 }
 #onespan{
@@ -192,6 +193,7 @@ body {
 
 }
 #pictures{
+    position: relative;
     display: flex;
     justify-content: space-between;
     margin-top: 8vw;
@@ -207,7 +209,6 @@ body {
     width: 100%;
     height: 24vw;
     margin-bottom: 1vw;
-    background-color: red;
 }
 #picimg img{
     width: 100%;
@@ -231,7 +232,6 @@ body {
     width: 100%;
     height: 24vw;
     margin-bottom: 1vw;
-    background-color: red;
 }
 #secpic{
     width: 25vw;
@@ -247,7 +247,6 @@ body {
 #bimg{
     width: 65%;
     height: 60vh;
-    background-color: red;
 }  
 #bimg img{
     width: 100%;
@@ -267,4 +266,45 @@ body {
     letter-spacing: -.1vw;
     line-height: 1;
 
+}
+#future{
+    margin-top: 4%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    border: 2px solid red;
+}
+#future video{
+    /* opacity: 0; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.2);
+    width: 100%;
+    height: 100vh;
+}
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    position: relative;
+    z-index: 9999;
+
+}
+#ftext button{
+    text-transform: capitalize;
+    margin-top: 10px;
+    padding: .8vw 1.7vw;
+    font-size: .6vw;
+    letter-spacing: -.0vw;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #5e5e5e;
+    color: #6f6f6f;
 }
