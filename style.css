@@ -277,10 +277,9 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #fff;
-    border: 2px solid red;
 }
 #future video{
-    /* opacity: 0; */
+    opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -294,6 +293,9 @@ body {
     align-items:center ;
     position: relative;
     z-index: 9999;
+    background-color: #fff;
+    padding: 1.2vw 2.5vw;
+    cursor: pointer;
 
 }
 #ftext button{
