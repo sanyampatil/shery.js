@@ -1,0 +1,126 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color:yellow;
+      padding: none;
+
+    }
+
+    #nav {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding: none;
+        border: 2px solid red;
+    }
+    
+    #nleft {
+        display: flex;
+        gap: 13px
+    }
+    
+    #nav a {
+        /* display: inline-block; */
+        font-size: 10px;
+        text-decoration: none;
+        color: #000;
+        font-weight: 700;
+    }
+    
+    #nav #centertag {
+        display: none ;
+        /* font-size: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+    }
+
+    #hero {
+        position: relative;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse  ;
+        width: 100%;
+        margin-top: 5%;
+        padding: 0vw 10vw;
+    }
+    
+    #sustain {
+        /* position: absolute;
+        top: 50%;
+        right: 50%; */
+        width: 10vw;
+        font-size: 10px;
+    }
+    
+    #sustain p {
+        text-transform: capitalize;
+        font-weight: 800;
+        opacity: .5;
+        line-height: 1;
+        font-size: 10px;
+        margin: 10px 0;
+    
+    }
+    
+    #sustain #susimagewrapper {
+        width: 40vh;
+        height: 40vw;
+    }
+    
+    #susimagewrapper img {
+        /* position: absolute; */
+        /* top: 40%;
+        left: 50%; */
+        /* transform: translate(-50%,-50%); */
+    
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    #ephameral {
+        margin-top: 10%;
+        position: relative;
+        width: 70vw;
+        min-height: 40vw;
+        /* background-color: rebeccapurple; */
+    }
+    
+    #ephameral #heading {
+        top: -22%;
+        left: -20%;
+    
+        position: relative;
+    
+    }
+    
+    #ephameral h1 {
+        letter-spacing: -.4vw;
+        font-size: 10vw;
+        font-family: 400;
+        line-height: 1;
+    
+    }
+    #motive{
+    }
+
+    #visite{
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #visite{
+        font-size: 5px;
+        border-radius: 10px;
+        border: 1px solid black;
+        padding: 1vw 2vw;
+        margin-bottom: 10px;
+    }
+    #visite:hover{
+
+    }
+    }
