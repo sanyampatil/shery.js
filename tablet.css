@@ -1,0 +1,31 @@
+
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: rgb(51, 255, 0);
+    }
+    #nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: -5px;
+    }
+    #nav #centertag{
+        margin-left: 50px;
+    }
+    #hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #visite{
+        font-size: 8px;
+        width: 10vw;
+        border: 2px solid red;
+    }
+    #sustain{
+        font-size: 10px;
+    }
+    #sustain p{
+        font-size: 10px;
+    }
+}
