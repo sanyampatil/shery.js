@@ -10,8 +10,9 @@
         display: flex;
         justify-content: space-between;
         padding: none;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 100vw;
+        background-color: rgba(244, 148, 116, 0.199);
     }
     
     #nleft {
@@ -110,9 +111,7 @@
         margin-left: 40px;
     
     }
-    #motive{
-    }
-
+   
     #visite{
         display: none;
         margin-top: 5%;
@@ -137,4 +136,23 @@
     #visite:hover{
 
     }
+    #motive{
+        font-size: 10px;        
+    }
+        #onespan{
+            width: 20px;
+        
+        }
+        #ftext{
+        background-color: rgb(244, 148, 116);
+        border: 2px solid rgb(251, 135, 96);
+        border-radius: 10px;
+
+        }
+        #ftext button{
+            padding: 1vw 2vw;
+            font-size: 10px;
+
+        }
+
     }
