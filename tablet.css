@@ -1,7 +1,6 @@
 
 @media only screen and (min-width: 600px) {
     body{
-        background-color: rgb(51, 255, 0);
     }
     #nav{
         display: flex;
@@ -20,7 +19,6 @@
     #visite{
         font-size: 8px;
         width: 10vw;
-        border: 2px solid red;
     }
     #sustain{
         font-size: 10px;
